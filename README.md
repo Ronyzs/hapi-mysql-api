@@ -47,4 +47,18 @@ Start the development server:
 npm run dev
 ```
 
-The API will be available at [http://localhost:3000](http://localhost:3000) by default.
+
+## 🐳 Running with Docker
+
+1. Make sure you have Docker installed on your system.
+2. Build the Docker image:
+    ```bash
+    docker build -t your-image-name .
+    ```
+3. Run the container:
+    ```bash
+    docker compose up -d
+    ```
+
+Ensure the `.env` file is properly configured before building the Docker image.
+
